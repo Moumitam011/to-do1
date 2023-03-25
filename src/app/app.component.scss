@@ -1,0 +1,86 @@
+body{
+  background-color: #d4e3de;
+}
+header
+{
+    height: 70px;
+    background-color: #052e26;
+    color: rgb(213, 213, 213);
+    padding: 20px;
+ h1 
+  {
+    font-family:Mongolian Baiti;
+    font-size: 25px; 
+    text-align: center;
+  }    
+}
+.font1{
+  font-family: Mongolian Baiti;
+  font-size: 30px;
+  font-weight: 200px;
+ 
+}
+.font2{
+  font-family: Mongolian Baiti;
+  font-size: 18px;
+  font-weight: 300px;
+  
+ 
+}
+.font3{
+  font-family: Mongolian Baiti;
+  font-size: 20px;
+  font-weight: 370px;
+ 
+}
+
+.bg-color{
+  background-color: #6db0a9;
+}
+.bg-color1{
+  background-color: #94bda4;
+}
+
+.task-checkbox {
+  cursor: pointer;
+
+  +label {
+    cursor: pointer;
+  }
+
+  &:checked+label {
+    text-decoration: line-through;
+    color: rgba(34, 34, 34, 0.4);
+  }
+}
+.progress1{
+  background-color:#105e4e;
+}
+.list-task {
+  display: flex;
+  border-bottom: 1px solid #efefef;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &:hover,
+  &:focus {
+    background: #e4e4e4;
+  }
+}
+.bi-check-circle-fill::before {
+  padding-right: 10px;
+  padding-left: 0px;
+}
+.progress2{
+ margin-top: 5px;
+}
+.progress3{
+  margin-top: 9px;
+ }
+.m-20{
+    margin: 20px;
+}
